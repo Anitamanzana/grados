@@ -18,11 +18,17 @@ public class Grados {
      */
     public static void main(String[] args) {
         Scanner teclado=new Scanner(System.in);
+       String respuesta="";
+        do{
         System.out.println("introduce los grados");
         double grados=teclado.nextDouble();
         double kelvin;
         kelvin=(grados+273,15);
-        System.out.println(grados+" grados son "+kelvin+ "grados kelvin");
+        System.out.println(grados+" grados son "+kelvin+ "grados kelvin")
+        System.out.println("¿Quieres continuar? teclea SI/NO")
+        }
+        while(respuesta.equalsIgnoreCase("SI")
+             );
         // TODO code application logic here
     }
     
